@@ -364,12 +364,3 @@ a { color: inherit; text-decoration: none; }
   .hero h1 { font-size: 27px; }
   .welfare-grid { grid-template-columns: 1fr; }
 }
-
-
-/* AI 생성 이미지 표시 */
-.ai-note {
-  margin: 14px 0 0;
-  font-size: 13px;
-  line-height: 1.6;
-  color: var(--ink-soft, #777);
-}
