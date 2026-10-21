@@ -365,5 +365,3 @@ a { color: inherit; text-decoration: none; }
   .welfare-grid { grid-template-columns: 1fr; }
 }
 
-/* AI 생성 이미지 표시 (이미지별 배지) */
-.ai-badge { position: absolute; right: 10px; bottom: 10px; padding: 4px 9px; border-radius: 4px; background: rgba(0,0,0,.62); color: #fff; font-size: 12px; font-weight: 600; line-height: 1.4; letter-spacing: 0; }
