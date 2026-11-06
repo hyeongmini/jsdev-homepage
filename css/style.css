@@ -365,3 +365,29 @@ a { color: inherit; text-decoration: none; }
   .welfare-grid { grid-template-columns: 1fr; }
 }
 
+
+/* ---------- 안전보건경영방침 ---------- */
+.safety-lead { font-size: 18px; line-height: 1.9; color: var(--ink); padding: 26px 30px; background: var(--card-bg); border: 1px solid var(--border); border-left: 5px solid var(--accent); border-radius: 0 14px 14px 0; }
+.safety-lead p + p { margin-top: 12px; }
+.safety-list { list-style: none; margin: 28px 0 0; padding: 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+.safety-list li { display: flex; gap: 18px; align-items: flex-start; padding: 22px 24px; background: var(--card-bg); border: 1px solid var(--border); border-radius: 14px; }
+.safety-num { flex: 0 0 auto; min-width: 36px; font-size: 24px; font-weight: 800; line-height: 1.4; color: var(--accent); }
+.safety-list p { margin: 0; font-size: 16px; line-height: 1.8; color: var(--ink); }
+.safety-sign { margin-top: 44px; text-align: center; }
+.safety-sign .safety-date { font-size: 17px; color: var(--ink-soft); }
+.safety-sign .safety-ceo { margin-top: 8px; font-size: 20px; color: var(--ink); }
+.safety-sign .safety-ceo strong { margin-left: 8px; font-size: 24px; }
+.safety-orig-title { margin: 72px 0 8px; text-align: center; font-size: 24px; font-weight: 800; }
+.safety-orig-desc { text-align: center; color: var(--ink-soft); font-size: 16px; margin-bottom: 26px; }
+.safety-doc { display: block; width: 360px; max-width: 100%; margin: 0 auto; text-align: center; font-weight: 600; font-size: 16px; color: var(--ink); }
+.safety-doc img { width: 100%; height: auto; background: #fff; border: 1px solid var(--border); border-radius: 6px; box-shadow: 0 14px 34px rgba(30,30,20,.16); transition: transform .2s ease, box-shadow .2s ease; }
+.safety-doc:hover img { transform: translateY(-4px); box-shadow: 0 20px 44px rgba(30,30,20,.22); }
+.safety-doc span { display: block; margin-top: 14px; }
+.safety-download-wrap { text-align: center; margin-top: 30px; }
+.safety-download { display: inline-flex; align-items: center; gap: 10px; background: var(--accent); color: #fff; font-size: 16px; font-weight: 700; padding: 13px 28px; border-radius: 999px; transition: background .2s ease, transform .2s ease; }
+.safety-download::before { content: '↓'; font-size: 18px; }
+.safety-download:hover { background: var(--accent-dark); transform: translateY(-2px); }
+.footer-links { display: flex; flex-wrap: wrap; margin-bottom: 18px; padding-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,.14); }
+.footer-links a { color: #fff; font-size: 14px; font-weight: 600; line-height: 1.2; }
+.footer-links a:hover { color: var(--accent); }
+@media (max-width: 760px) { .safety-list { grid-template-columns: 1fr; } .safety-lead { padding: 20px; font-size: 16px; } .safety-list li { padding: 18px; gap: 14px; } }
